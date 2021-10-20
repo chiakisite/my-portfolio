@@ -4,12 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <title>Chiaki's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <div class="header" id="header">
+      <div class="container">
+        <div class="header-name"><h1>Chiaki's Portfolio</h1></div>
+        <div class="header-list">
+          <ul>
+            <li><a href="#main-container">Profile</a></li>
+            <li><a href="#quiz-container">Quiz</a></li>
+            <li><a href="#gallery-container">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-container" id="main-container">
+      <div class="container">
+        <div class="photo-container">
+          <img src="./myphoto.jpg" />
+        </div>
+        <div class="introduce-container">
+          <div class="introduce">
+            <h1>川崎 千晶<span>(かわさき ちあき)</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quiz-container" id="quiz-container"></div>
+    <div class="gallery-container" id="gallery-container"></div>
+    <div class="footer" id="footer"></div>
     <script src="main.js"></script>
   </body>
 </html>
