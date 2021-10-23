@@ -4,37 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chiaki's Portfolio</title>
+    <title>Chiaki　Kawasaki's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="header" id="header">
-      <div class="container">
-        <div class="header-name"><h1>Chiaki's Portfolio</h1></div>
-        <div class="header-list">
-          <ul>
-            <li><a href="#main-container">Profile</a></li>
-            <li><a href="#quiz-container">Quiz</a></li>
-            <li><a href="#gallery-container">Gallery</a></li>
-          </ul>
-        </div>
+      <div class="header-name"><h1>Chiaki　Kawasaki's Portfolio</h1></div>
+      <div class="header-list">
+        <ul>
+          <li><a href="#main-container">Photos</a></li>
+          <li><a href="#QandA-container">Q&A</a></li>
+          <li><a href="#message-container">Message</a></li>
+        </ul>
       </div>
     </div>
     <div class="main-container" id="main-container">
-      <div class="container">
-        <div class="photo-container">
-          <img src="./myphoto.jpg" />
+      <div class="photo-container"><img src="./myphoto.jpg" id="photo" /></div>
+      <div class="introduce-container">
+        <div class="introduce" id="content">
+          所属しているサークル・理工展連絡会の夏旅行！理工展連絡会は、学園祭の運営をしているサークルだよ！私は主に、近隣の飲食店とのコラボを担当しているんだー！
         </div>
-        <div class="introduce-container">
-          <div class="introduce">
-            <h1>川崎 千晶<span>(かわさき ちあき)</span></h1>
-          </div>
-        </div>
+        <button class="next" id="next">次の写真！</button>
       </div>
     </div>
-    <div class="quiz-container" id="quiz-container"></div>
-    <div class="gallery-container" id="gallery-container"></div>
-    <div class="footer" id="footer"></div>
+    <div class="QandA-container" id="QandA-container">
+      <h1 class="title">Q&A</h1>
+    </div>
+    <div class="message-container" id="message-container">
+      <h1 class="title" id="word">好きな言葉は……？</h1>
+      <div class="word-image animation">
+        <img src="favoriteWords.jpg" />
+        <h2 class="from">Derived from</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/hCfwA8U87QM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="footer" id="footer">© 2021 ChiakiKawasaki, All Rights Reserved.</div>
     <script src="main.js"></script>
   </body>
 </html>
